@@ -26,8 +26,8 @@ function NumbersGiven() {
     
   // Else, complete the while loop to create list of the numbers between min and max
   else {
-    // While loop that specifies the range, so the code within the loop executes as long as the counter is greater than or equal to the minimum and less than or equal to the maximum
-    while ((counter >= minNumber) && (counter <= maxNumber)) {
+    // While loop that specifies that the code within the loop executes as long as the counter is less than or equal to the maximum
+    while (counter <= maxNumber) {
 
       // Building the string of numbers with a line break
       numbers = numbers + counter + "<br>";
